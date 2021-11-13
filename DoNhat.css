@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu{
+    height: 75px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1349px;
+    border-bottom:#fff ;
+}
+#menu ul{
+    list-style: none;
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+}
+#menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Helvetica;
+    display: block;
+    padding: 27.5px;
+    font-size: 17px;
+}
+#menu ul li{
+    position: relative;
+}
+#menu ul li a:hover{
+    background: #797575;
+    transition: 0.4s;
+}
+
+/* end */
+#menu ul li>ul{
+    position: absolute;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    visibility: hidden;
+}
+#menu ul li>ul li a{
+    font-size: 14px;
+    width: 134.39px;
+    border-bottom: 1px solid #fff;
+}
+#menu ul li>ul li:last-child{
+    border: none;
+}
+#menu ul li:hover>ul{
+    visibility: visible;
+}
+/* end */
+#menu ul li>ul li>ul{
+    display: inline-block;
+    margin-left: 95px;
+    top: 0;
+    border-left: 2px solid #fff;
+}
+#menu ul li>ul li>ul{
+    position: absolute;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    visibility: hidden;
+}
+#menu ul li>ul li>ul li a{
+    width: 134.39px;
+    border-bottom: 1px solid #fff;
+}
+#menu ul li:hover>ul>ul{
+    visibility: visible;
+}
+/* end */

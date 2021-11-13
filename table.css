@@ -1,0 +1,42 @@
+.bang{
+    width: 260px;
+    background-color: aquamarine;
+}
+.trai{
+    background:#111;
+    display: flex;
+    width: 800px;
+}
+img{
+    width:300px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.phai{
+    top: 246px;
+    position: absolute;
+    right: 550px;
+    width: 470px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+hr{
+    margin-top: 20px;
+}
+.trai1{
+    margin-top: 20px;
+}
+.phai1{
+    top: 488px;
+    position: absolute;
+    right: 550px;
+    width: 470px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.anh{
+    margin-left: 600px;
+}

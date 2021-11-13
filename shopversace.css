@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/575/924/original/gray-and-white-color-geometric-modern-design-for-background-with-copy-space-vector-illustration.jpg");
+}
+#header{
+    height: 250px;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+#header #input1 .input{
+    width: 550px;
+    height: 26px;
+    margin-left: 70px;
+    padding-left: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#header #input1{
+    margin-left: -100px;
+}
+#header #input1 img{
+    width: 24px;
+    height: 24px;
+}
+#header #input1 img{
+    width: 24px;
+    height: 24px;
+}
+#header #input1 a{
+    float: right;
+    padding: 4px;
+    padding-right: 10px;
+}
+#header #input1{
+    margin-right: 80px;
+}
+/* end */
+#menu{
+    height: 40px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1349px;
+    border-bottom:#fff ;
+}
+#menu ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+#menu li{
+    display: inline-block;
+}
+#menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Helvetica;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+
+}
+#menu ul li{
+    position: relative;
+}
+#menu ul li>ul{
+    position: absolute;
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    visibility: hidden;
+}
+#menu ul li>ul>li{
+    display: flex;
+    width: 155px;
+    border-bottom: 1px solid #706b6b;
+}
+#menu ul li>ul>li:last-child{
+    border: none;
+}
+#menu ul li>ul>li a{
+    width: 155px;
+}
+#menu ul li a:hover{
+    background: #797575;
+    transition: 0.4s;
+}
+#menu ul li:hover>ul{
+    visibility: visible;
+}
+
+/* end */
+#main{
+    margin-top: -180px;
+    
+}
+/* end */
+#main #left{
+    float: left;
+    width: 149px;
+    height: 40px;
+    min-height: auto;
+}
+.meneu{
+    width: 149px;
+    overflow: hidden;
+}
+.item{
+    border-top: 1px solid #ff0055;
+    overflow: hidden;
+}
+.btn{
+    display: block;
+    padding: 16px 20px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+    color: white;
+    position: relative;
+}
+.smeneu{
+    background:rgb(104, 30, 30);
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+}
+.smeneu a{
+    display: block;
+    padding: 16px 26px;
+    color: white;
+    font-size: 14px;
+    margin: 4px 0;
+    position: relative;
+    font-weight: bold;
+}
+.smeneu a:before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+.smeneu a:hover:before{
+    opacity: 1;
+}
+.item:target .smeneu{
+    max-height: 30em;
+}
+
+/* end */
+#main #giua{
+    float: left;
+    width: 1000px;
+    min-height: auto;
+}
+#main #giua .img{
+    text-align: center;
+    margin-top: 20px;
+}
+#main #giua .img img{
+    border: 2px solid rgb(189, 19, 90);
+}
+#main #giua .text{
+    text-align: center;
+    margin-top: 50px;
+}
+#main #giua .text a{
+    font-size: 30px;
+    color: #881f1f;
+    font-weight: bold;
+}
+#main #giua .sanpham{
+    float: left;
+    padding: 24px;
+}
+#main #giua .sanpham .anh img{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 220px;
+}
+#main #giua .sanpham .text1{
+    width: 200px;
+}
+#main #giua .sanpham .text1 a{
+    font-size: 18px;
+    color: black;
+}
+#main #giua .sanpham .text1 p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#main #giua .sanpham .text1 a:hover{
+    color: #ff0015;
+}
+/* end */
+#main #right{
+    float: left;
+    width: 200px;
+    min-height: 800px;
+}
+
+#main #right p{
+    color: rgb(255, 0, 85);
+    border-bottom: 1px solid #918a8a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#main #right .sanphamsale{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #8b8585;
+}
+#main #right .anhsale{
+    float: left;
+    margin-right: 20px;
+}
+#main #right .anhsale img{
+    width: 60px;
+    height: 60px;
+}
+#main #right .textsale a{
+    width: 120px;
+    color: rgb(0, 0, 0);
+}
+#main #right .sanphamsale .textsale a:hover{
+    color: #ff0015;
+}
+#main #right .sanphamsale:last-child{
+    border: none;
+}
+/* end */
+#footer{
+    height: 100px;
+    width: 1358px;
+    clear: left;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Picture-620x349.png");
+}
+#footer .footer1 .imgfooter img{
+    width: 300px;
+    height: 100px;
+}
+#footer .footer1 .imgfooter{
+    margin-left: 120px;
+}
+#footer .footer1 .imgfooter{
+    float: left;
+}
+#footer .footer1 .inputfooter{
+    padding: 36px;
+    
+}
+#footer .footer1 .inputfooter input{
+    width: 550px;
+    height: 26px;
+    margin-left: 70px;
+    padding-left: 10px;
+    border: 2px solid rgb(100, 85, 85);
+}

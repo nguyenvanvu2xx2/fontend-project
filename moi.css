@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header .header1{
+
+ 
+    height: 46px;
+    background: rgb(0, 0, 0);
+}
+#header .header1 ul{
+    text-transform: uppercase;
+    display: flex;
+}
+#header .header1 ul li{
+    list-style: none;
+}
+#header .header1 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 46px;
+    padding: 12px 24px;
+
+}
+#header .header1 ul li:hover{
+    background: #7f8386;
+}
+#anh img{
+    width: 100%;
+}
+
+#anh{
+    /* position: relative; */
+    background: url("https://www.w3schools.com/w3images/ny.jpg") top center / cover no-repeat;
+    padding-top: 50%;
+    
+}
+#anh .text{
+    /* position: aliceblue; */
+}
+#anh .text{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+}

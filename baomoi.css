@@ -1,0 +1,134 @@
+.Tong{
+    background: #2FA1B3;
+    height: 40px;
+}
+.thanh-tab{
+    list-style: none;
+    text-align: center;
+
+}
+.thanh-tab li{
+    display: inline;
+}
+.thanh-tab li{
+   padding-left: 12px;
+   padding-right: 12px;
+   line-height: 40px;
+   display: inline-block;
+   border-left: 1px solid rgb(216, 214, 214);
+}
+.thanh-tab  a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.thanh-tab li:hover{
+    background-color:rgb(43,148,165);
+}
+.trai a img{
+    width: 570px;
+    margin-left: 190px;
+}
+.chu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #111;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.chu{
+    width: 600px;
+    margin-left: 190px;
+}
+.chu a:hover{
+    color:#2FA1B3 ;
+}
+.zing a{
+    font-size: 14px;
+}
+span{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.khoi{
+    margin-left: 190px;
+    margin-top:20px ;
+}
+div.tab3{
+    width: 195px;
+    float: left;
+}
+div.tab3 img{
+    width: 180px;
+}
+.tab3 a{
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tab3 a:hover{
+    color:#2FA1B3;
+}
+#vu{
+    width: 572px;
+    margin-left: -392px;
+    margin-top: 27px;
+}
+.khoi2{
+    width: 800px;
+    margin-left:20px;
+    display: flex;
+    padding: 10px;
+    
+}
+.tab-trai{
+    width:300px;
+}
+.tab-phai{
+    width: 380px;
+    margin-left: -130px;
+
+}
+img{
+    width: 150px;
+}
+.tab-phai a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.khoi2 a:hover{
+    color: #2FA1B3;
+}
+.one{
+    margin-left: 190px;
+    margin-right: 572px;
+}
+.h3{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+div.h3 a{
+    text-decoration: none;
+}
+div.h3 span{
+    font-size: 25px;
+    color: #DB562B;
+}
+.h3 a span:hover{
+    color: #111;
+}
+.trai-phai{
+    display: flex;
+}
+.tab-phai a img{
+    width: 100%;
+}
+.phaix{
+
+}
+.bo:hover{
+    color: #2FA1B3;
+}

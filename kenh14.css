@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.applab{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.container{
+    margin: 0 auto;
+}
+.header{
+    padding-top:100px ;
+    display: flex;
+    align-items: center;
+}  
+.header-try{
+    margin-left: auto;
+}
+.header-logo{
+    display: block;
+    margin-right: 200px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fcae61;
+}
+.header-menu-item{
+    float: left;
+    list-style: none;
+}
+.header-menu-item:not(:first-child){
+    margin-left: 35px;
+}
+.header-menu-item a{
+    text-decoration: none;
+    color:#242f51;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-menu-item a:hover{
+    color:#2500f9 ;
+}
+.header-try{
+    border-radius: 25px;
+    border: 1px solid #2500f9;
+    padding:10px 15px 10px 15px ;
+    background: #2500f9;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* end */
+.baner{
+    padding-top:30px ;
+    display: flex;
+    align-items: center;
+}
+.baner-left{
+    margin-left: 40px;
+    margin-right: 90px;
+}
+.baner-top{
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 30px;
+    color: #242f51;
+    border-radius: 10px;
+    border: 1px solid #e2eaed;
+    background: #e2eaed;
+}
+.baner-image{
+    width: 360px;
+}
+.header-trylinks{
+    color: #242f51;
+    text-decoration: none;
+    font-size: 18px;
+}
+.baner-heading{
+    color: #242f51;
+    
+    width: 450px;
+    font-size: 50px;
+}
+.baner-bottom{
+    width: 350px;
+    padding-top: 20px;
+    color: #242f51;
+}
+.baner-links{
+    padding-top:40px;
+}
+.header-trylinks{
+    padding-left: 20px;
+}
+/* end */
+.main{
+    padding-top: 328px;
+    text-align: center;
+}
+.main-top{
+    color: #242f51;
+    font-weight: 500;
+}
+.main-logo{
+    list-style: none;
+    padding-top: 30px;
+}
+.menu-logo-item{
+    display: inline;
+}
+.menu-logo-item:not(:first-child){
+    margin-left: 74px;
+}
+.logo-img{
+    width: 100px;
+}
+/* end */
+.baner1{
+    padding-top:190px ;
+    display: flex;
+    align-items: center;
+}
+.baner-left1{
+    margin-left: 100px;
+}
+.baner-heading1{
+    width: 300px;
+    font-size: 36px;
+    line-height: 1;
+}
+.baner-bottom1{
+    width: 380px;
+}
+.baner-text{
+    color: #242f51;
+}
+.baner-image{
+    width: 360px;
+}
+.baner-links1{
+    margin-top: 90px;
+    display: flex;
+    color: #242f51;
+}
+.baner-links1:not(:first-child){
+    margin-top: 47px;
+}
+.baner-oneimg{
+    background: #ffecef;
+    border-radius: 50px;
+    border: 1px solid #ffecef;
+    margin-top: 20px;
+}
+.baner-oneimg1{
+    background: #f4f4ff;
+    border-radius: 50px;
+    border: 1px solid #f4f4ff;
+    margin-top: 20px;
+}
+.baner-oneimg2{
+    background: #e4ffee;
+    border-radius: 50px;
+    border: 1px solid #e4ffee;
+    margin-top: 20px;
+}
+.baner-onetext{
+    margin-left: 34px;
+}
+.link-img{
+    padding: 10px;
+    width: 85px;
+    height: 60px;
+}
+.link-p{
+    width: 250px;
+}
+.link-bar{
+    font-size: 20px;
+    color: #f55767;
+}
+.link-bar1{
+    font-size: 20px;
+    color: #2563ff;
+}
+.link-bar2{
+    font-size: 20px;
+    color: #40975f;
+}
